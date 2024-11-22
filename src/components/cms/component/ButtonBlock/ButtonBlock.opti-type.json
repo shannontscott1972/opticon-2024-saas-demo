@@ -1,0 +1,91 @@
+{
+  "key": "ButtonBlock",
+  "displayName": "Button",
+  "description": "Button element for inclusion in other blocks/pages",
+  "baseType": "component",
+  "sortOrder": 100,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "created": "2024-04-22T08:09:01.4366667+00:00",
+  "lastModified": "2024-04-22T08:09:01.4366667+00:00",
+  "properties": {
+    "text": {
+      "type": "string",
+      "format": "shortString",
+      "displayName": "Text",
+      "description": "",
+      "localized": false,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {}
+    },
+    "link": {
+      "type": "url",
+      "displayName": "Link",
+      "description": "",
+      "localized": false,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {}
+    },
+    "className": {
+      "type": "string",
+      "format": "shortString",
+      "displayName": "CSS Classes",
+      "description": "Additional CSS Classes for the button",
+      "localized": false,
+      "required": false,
+      "group": "RenderSettings",
+      "sortOrder": 100,
+      "editorSettings": {}
+    },
+    "buttonType": {
+      "type": "string",
+      "format": "selectOne",
+      "displayName": "Button Type",
+      "description": "",
+      "localized": false,
+      "required": false,
+      "group": "RenderSettings",
+      "sortOrder": 150,
+      "editorSettings": {},
+      "enum": {
+        "values": [
+          {
+            "displayName": "Primary",
+            "value": "primary"
+          },
+          {
+            "displayName": "Secondary",
+            "value": "secondary"
+          }
+        ]
+      }
+    },
+    "variant": {
+      "type": "string",
+      "format": "selectOne",
+      "displayName": "Variant",
+      "description": "",
+      "localized": false,
+      "required": false,
+      "group": "RenderSettings",
+      "sortOrder": 200,
+      "editorSettings": {},
+      "enum": {
+        "values": [
+          {
+            "displayName": "Default",
+            "value": "default"
+          },
+          {
+            "displayName": "CTA",
+            "value": "cta"
+          }
+        ]
+      }
+    }
+  }
+}
